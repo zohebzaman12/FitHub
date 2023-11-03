@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/FitHub/static/css/main.97c4e75b.css",
+    "main.js": "/FitHub/static/js/main.508b3ca5.js",
+    "static/media/banner.png": "/FitHub/static/media/banner.a7a4a2930a767134d93e.png",
+    "static/media/gym.png": "/FitHub/static/media/gym.6e701417c428e2fbc267.png",
+    "static/media/Logo.png": "/FitHub/static/media/Logo.660a56c853cb23fc009c.png",
+    "static/media/Logo-2.png": "/FitHub/static/media/Logo-2.b0a1e86a6baf79e2881e.png",
+    "index.html": "/FitHub/index.html",
+    "main.97c4e75b.css.map": "/FitHub/static/css/main.97c4e75b.css.map",
+    "main.508b3ca5.js.map": "/FitHub/static/js/main.508b3ca5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97c4e75b.css",
+    "static/js/main.508b3ca5.js"
+  ]
+}
