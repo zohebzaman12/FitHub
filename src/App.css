@@ -1,12 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+
 body {
     font-family: 'Josefin Sans';
-    background-color: #FFFAFB;
+    background-color: white;
   }
   
   * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
   
   }
   
@@ -23,7 +27,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #FF2625;
+    color: #3C486B;
     font-size: 25px;
     border-radius: 4px;
     position: absolute;
@@ -64,11 +68,11 @@ body {
   }
   
   .exercise-card {
-    width: 400px;
+    width: 340px;
     height: 445px;
-    background: #fff;
-    border-top: 4px solid #FF2625;
-    border-bottom-left-radius: 20px;
+    background: white;
+    /* border: 6px solid #FF2625; */
+    border-radius: 10px;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
@@ -85,16 +89,21 @@ body {
   .bodyPart-card {
     transform: scale(1, 1);
     transition: 0.3s all ease-in-out;
+    
   }
   
-  .exercise-card:hover,
+  
   .bodyPart-card:hover {
     transform: scale(1.1, 1.1);
+    border-top: 20px solid  #FF2625;
   }
-  
+  .exercise-card:hover{
+    transform: scale(1.1, 1.1);
+    border-top: 10px solid  #FF2625;
+  }
   .search-btn:hover {
     color: #FF2625 !important;
-    border: 1px solid #FF2625 !important;
+    border: 1px solid #3C486B !important;
   }
   
   .exercise-video {
@@ -104,6 +113,10 @@ body {
     width: 387px;
     height: 381px;
     text-decoration: none;
+  }
+
+  a{
+    scroll-behavior: smooth;
   }
   
   @media screen and (max-width:1200px) {

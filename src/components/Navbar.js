@@ -4,6 +4,7 @@ import { Stack } from '@mui/material';
 import Logo from '../assets/images/Logo.png';
 
 const Navbar = () => {
+  
   return (
     <Stack
     flexDirection="row"
@@ -18,10 +19,11 @@ const Navbar = () => {
         flexDirection="row"
         gap="40px"
         fontSize="24px"
+        fontWeight="800"
         alignItems="flex-end"
       >
-        <Link to="/" style={{textDecoration:'none',color:'#3A1212',borderBottom:"2px solid #FF2625"}}>Home</Link>
-        <a href='#exercises' style={{textDecoration:'none',color:'#3A1212'}}>Exercises</a>
+        <Link to="/" style={{textDecoration:'none',color:'#3A1212'}}>HOME</Link>
+        <a href='#search-exercises' style={{textDecoration:'none',color:'#3A1212'}}>EXERCISES</a>
     </Stack>
     </Stack>
     

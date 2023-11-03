@@ -9,7 +9,7 @@ const ExerciseVideos = ({exerciseVideos,name}) => {
   return (
     <Box sx={{ marginTop: { lg: '203px', xs: '20px' } }} p="20px">
       <Typography sx={{ fontSize: { lg: '44px', xs: '25px' } }} fontWeight={700} color="#000" mb="33px">
-        <span style={{ color: '#FF2625', textTransform: 'capitalize' }}>{name}</span> Exercise Tutorial Videos
+        <span style={{ color: '#F45050', textTransform: 'capitalize' }}>{name}</span> Exercise Tutorial Videos
       </Typography>
       <Stack sx={{ flexDirection: { lg: 'row' }, gap: { lg: '110px', xs: '0px' } }} justifyContent="flex-start" flexWrap="wrap" alignItems="center">
         {exerciseVideos?.slice(0,3).map((item, index) =>{
@@ -24,7 +24,7 @@ const ExerciseVideos = ({exerciseVideos,name}) => {
               <Typography sx={{ fontSize: { lg: '28px', xs: '18px' } }} fontWeight={600} color="#000">
                 {item.video.title}
               </Typography>
-              <Typography fontSize="14px" color="#FF2625">
+              <Typography fontSize="14px" color="#3C486B">
                 {item.video.channelName}
               </Typography>
             </Box>

@@ -32,16 +32,12 @@ const Detail = ({exerciseDetail}) => {
         <Typography sx={{ fontSize: { lg: '40px', xs: '20px' } }} fontWeight={700} textTransform="capitalize">
           {name}
         </Typography>
-        <Typography sx={{ fontSize: { lg: '24px', xs: '18px' } }} color="#4F4C4C">
-          {
-          
-          // instructions.map((instruction,index) =>{
-          //    <div key={index}>
-          //    {index + 1}. {instruction}
-          //  </div>
-          // })
-            
-          }
+        <Typography sx={{ fontSize: { lg: '24px', xs: '18px', padding:'10px' } }} color="#4F4C4C">
+        {instructions && Object.keys(instructions).map((key, index) => (
+            <div key={index}>
+              {parseInt(key) + 1}. {instructions[key]}
+            </div>
+          ))}
         </Typography>
         {extraDetail?.map((item) => (
           <Stack key={item.name} direction="row" gap="24px" alignItems="center">
