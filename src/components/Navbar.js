@@ -12,7 +12,7 @@ const Navbar = () => {
     alignItems="center"
     px='20px'
     >
-      <Link to='/'>
+      <Link to='/FitHub'>
         <img src={Logo} alt='Logo' style={{height:"100px",width:"100px",margin:'0px 20px'}}/>
       </Link>
       <Stack
@@ -22,7 +22,7 @@ const Navbar = () => {
         fontWeight="800"
         alignItems="flex-end"
       >
-        <Link to="/" style={{textDecoration:'none',color:'#3A1212'}}>HOME</Link>
+        <Link to="/FitHub" style={{textDecoration:'none',color:'#3A1212'}}>HOME</Link>
         <a href='#search-exercises' style={{textDecoration:'none',color:'#3A1212'}}>EXERCISES</a>
     </Stack>
     </Stack>
